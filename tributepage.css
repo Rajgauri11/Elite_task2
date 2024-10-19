@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+}
+
+.child{
+    height: 700px;
+    width: 700px;
+    /* background-color: purple; */
+    background-image: url(https://news24online.com/wp-content/uploads/2023/07/Chandrayan-Mission-1.png);
+    border:5px solid;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+
+.photo{
+    position: relative;
+    left: 30px;
+    top: 50px;
+
+}
+
+.photo img{
+    border-radius: 50%;
+}
+
+.photo h1{
+    position: relative;
+    left: 215px;
+    top: -60px;
+}
+
+.photo h4{
+    position: relative;
+    left: 345px;
+    top: -60px;
+}
+
+.photo p{
+    padding-right: 250px;
+}
+
+.photo h2{
+    position: relative;
+    top: -20px;
+}
